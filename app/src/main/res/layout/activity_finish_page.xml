@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/blk_bg_finish"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".FinishPage">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="image"
+        android:src="@drawable/trophy" />
+    <TextView
+        android:id="@+id/congo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations !!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFC003"
+/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="username"
+        android:layout_marginTop="12dp"
+        android:textSize="23sp"
+        />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B393EC"
+        tools:text="your score is 3 out of 4"
+        android:layout_marginTop="12dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="FINISH"
+        android:textSize="20dp"
+        android:backgroundTint="#FF0000"
+/>
+
+
+</LinearLayout>
